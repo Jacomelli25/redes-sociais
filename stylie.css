@@ -5,3 +5,44 @@
   --primary-color: #DDDDDD;
   --secondary-color: #FO5454;
   --fonte: 'Nunito Sans", sans-serirf;
+}
+
+bofy {
+  background-coor: var(--bg-color);
+  color: var(--primary-color);
+  font-family: var(--font);
+  heigth: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  text-aling: center;
+  padding: 1px;
+}
+
+h1{
+  font-size: 2rem;
+  color: var(--bg-color);
+  for-weingt: 700;
+}
+
+nav{
+  display:flex;
+  justify-content: center;
+  font-weinght:400;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  transform: scale(0.90);
+  transition: transform 0.1s;
+}
+
+nav a {
+  text-decoration: none;
+  color:var(--bg-color);
+  margin: 0 2rem 1rem 0rem;
+  font-size: 1.2rem;
+}
+  
